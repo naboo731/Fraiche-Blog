@@ -16,14 +16,14 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT ME</span>
+        <span className="sidebarTitle topTitle">Fraîche</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+          src="https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80"
           alt=""
+          className="sidebarImg"
         />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+        <p className="sidebarText">
+          Fraîche is an exclusive blog for sharing recipes, food experiences, and divulging best-kept culinary tips for the 'home-cooks at heart'. Fraîche aims to connect the world through the shared love of food and gathering together to experience the freshest ingredients. Join our blog today!  
         </p>
       </div>
       <div className="sidebarItem">
